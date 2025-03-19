@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(img/abstract-futuristic-circuit-board-illustration-high-computer-technology-dark-blue-color-background-hi-tech-digital-technology-concept-free-vector.jpg) no-repeat center center/cover;
+
+}
+
+.contenedor-principal{
+    width: 80vw;
+    max-width: 600px;
+    min-height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+  
+
+}
+
+.contenedor-btn{
+    padding: 20px;
+}
+
+#cronometro{
+    width: 100%;
+    font-size: 80px;
+    font-weight: bold;
+    user-select: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+#btn-inicio-pausa.iniciar, #btn-inicio-pausa.iniciar i{
+    background-color:  greenyellow ;
+}
+
+#btn-inicio-pausa.pausar, #btn-inicio-pausa.pausar i{
+    background-color:  yellow ;
+}
+
+#btn-reiniciar{
+    background-color: red;
+}
